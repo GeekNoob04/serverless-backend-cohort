@@ -16,7 +16,7 @@ export default {
 		console.log(request.body);
 		console.log(request.headers);
 		return Response.json({
-			message: 'hdllo testing cloudflare',
+			message: 'hello testing cloudflare',
 		});
 	},
 };
